@@ -11,3 +11,4 @@ Requirements:
 - Linux OS
 - Enable access logs for nginx
 - Provide valid path to access.log file in app.py
+- Add 'include /PATH_TO_FILE/blocked_ips.conf;' to the nginx.conf (/etc/nginx/nginx.conf) in http block
